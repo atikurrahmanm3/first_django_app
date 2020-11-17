@@ -1,0 +1,46 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block title %}
+about-page
+{% endblock  %}
+
+ {% block contant %} 
+    <!---------About section start-------->
+        <div class="about-section bg-info pb-3" id="about">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <div class="about-title text-light"><br>
+                            <div class="about-subtitle">
+                                About Us
+                            </div>
+                            <div class="about-main-title text-uppercase">
+                                 <strong class="text-warning"> {{aboutus.title}} </strong>
+                            </div>
+                            <div class="about-description">
+                                {{aboutus.description}}
+                            </div>
+                            <button type="button" class="btn btn-outline-warning text-light float-right mt-3 text-uppercase"> read more</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 about-right-side d-flex justify-content-center align-items-center  ">
+                        <div class="about-box float-right">
+                            <div class="about-inner-box d-flex justify-content-center align-items-center">
+                                <a href="{{aboutus.image.url}}" class="videopopup">
+                                    <img src="{{aboutus.image.url}}  " height="300px" alt="image" class="rounded"><br>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        </div>
+        <!---------About section end-------->
+        {% include 'partials/service.html' %}
+ {% endblock %}

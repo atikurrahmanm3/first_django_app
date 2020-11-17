@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.wrapper {
+    min-height: 500px;
+}
+
+.home {
+    min-height: 650px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('static/home.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+/*-----------------------------------------service start--------------*/
+
+.label {
+    height: 50px;
+    opacity: .7;
+}
+
+.service {
+    min-height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('static/service.jpg');
+}
+
+.srow {
+    margin-top: 5%;
+}
+
+.col-md-3:hover {
+    box-shadow: 5px 7px 9px -3px rgba(255, 255, 255, 0.5);
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+.icon:hover {
+    transition: .3s;
+    transform: rotate(10deg);
+    cursor: pointer;
+}
+
+
+/*-----------------------------------------about start--------------*/
+
+.about-section {
+    min-height: 600px;
+}
+
+.about-subtitle {
+    margin-bottom: 7px;
+    padding-left: 7px;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    border-left: 3px solid #bfa67a;
+    font-size: 700;
+    font-family: tahoma;
+}
+
+.about-main-title {
+    margin-top: 0;
+    margin-bottom: 37px;
+    font-size: 30px;
+    line-height: 1.27;
+    font-weight: 300;
+}
+
+.about-right-side {
+    min-height: 600px;
+}
+
+
+/*-----------------------------------------footer start--------------*/
+
+.footer {
+    min-height: 250px;
+    background-color: rgba(31, 25, 25);
+}
+
+hr {
+    background-color: aqua;
+}
+
+.media a {
+    text-decoration: none;
+}
+
+.sbox {
+    height: 50px;
+    width: 50px;
+    border: 1px solid powderblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.links ul li a {
+    text-decoration: none;
+}
+
+.links ul {
+    color: cadetblue;
+}
+
+.link:hover {
+    transform: rotate(5deg);
+    cursor: pointer;
+}
+
+.name {
+    height: 30px;
+}
